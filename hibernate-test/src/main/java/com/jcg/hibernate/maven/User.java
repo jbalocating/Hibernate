@@ -1,5 +1,6 @@
 package com.jcg.hibernate.maven;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -9,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="user_table")
-public class User {
+public class User implements Serializable {
 
 	@Id
 	@Column(name="user_id")

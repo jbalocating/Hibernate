@@ -1,7 +1,5 @@
 package com.jcg.hibernate.maven;
 
-import java.util.Date;
-
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
